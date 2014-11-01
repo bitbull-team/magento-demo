@@ -1,0 +1,24 @@
+{
+    "name": "magento/demo",
+    "description": "Magento Demo",
+    "minimum-stability": "dev",
+    "authors": [
+        {"name": "Gennaro Vietri", "email": "gennaro.vietri@bitbull.it"},
+        {"name": "Walter Dalmut", "email": "walter.dalmut@corley.it"}
+    ],
+    "repositories":[
+        {"type": "composer", "url": "http://packages.firegento.com"},
+        {"type": "vcs", "url": "git@bitbucket.org:bitbull/magento-core.git"}
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer": "*",
+        "bitbull/magento-core": "1.9.0.1",
+        "firegento/psr0autoloader": "dev-master"
+    },
+    "extra":{
+        "magento-root-dir": ".",
+        "magento-deploystrategy": "copy",
+        "magento-force": true,
+        "auto-append-gitignore": true
+    }
+}
