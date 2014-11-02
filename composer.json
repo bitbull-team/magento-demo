@@ -13,7 +13,8 @@
     "require":{
         "magento-hackathon/magento-composer-installer": "*",
         "bitbull/magento-core": "1.9.0.1",
-        "firegento/psr0autoloader": "dev-master"
+        "firegento/psr0autoloader": "dev-master",
+        "colinmollenhour/cache-backend-redis": "~1.6"
     },
     "extra":{
         "magento-root-dir": ".",
